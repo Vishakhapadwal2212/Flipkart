@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser window is maximized successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-11-30T23:25:55 IST" name="Default suite" finished-at="2022-11-30T23:26:02 IST" duration-ms="7040">
+    <groups>
+    </groups>
+    <test started-at="2022-11-30T23:25:55 IST" name="Default test" finished-at="2022-11-30T23:26:02 IST" duration-ms="7040">
+      <class name="test_Scripts.LoginNumberFail_TC_01">
+        <test-method is-config="true" signature="beforeSuit()[pri:0, instance:test_Scripts.LoginNumberFail_TC_01@1a451d4d]" started-at="2022-11-30T23:25:54 IST" name="beforeSuit" finished-at="2022-11-30T23:25:55 IST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuit -->
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:test_Scripts.LoginNumberFail_TC_01@1a451d4d]" started-at="2022-11-30T23:25:55 IST" name="browserSetup" finished-at="2022-11-30T23:25:58 IST" duration-ms="3414" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser window is maximized successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="testScript1([Ljava.lang.String;)[pri:0, instance:test_Scripts.LoginNumberFail_TC_01@1a451d4d]" started-at="2022-11-30T23:25:59 IST" name="testScript1" data-provider="testData" finished-at="2022-11-30T23:26:01 IST" duration-ms="2882" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@3f1ed068]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScript1 -->
+        <test-method is-config="true" signature="CloseApp()[pri:0, instance:test_Scripts.LoginNumberFail_TC_01@1a451d4d]" started-at="2022-11-30T23:26:01 IST" name="CloseApp" finished-at="2022-11-30T23:26:02 IST" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:test_Scripts.LoginNumberFail_TC_01@1a451d4d]" started-at="2022-11-30T23:26:02 IST" name="afterSuite" finished-at="2022-11-30T23:26:02 IST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- test_Scripts.LoginNumberFail_TC_01 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
